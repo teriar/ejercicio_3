@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
             val valor1 = numero1.text.toString().toDouble()
             val valor2 = numero2.text.toString().toDouble()
             if (valor2.equals(0)) {
+
                 Toast.makeText(baseContext, "no se puede dividir por 0: ", Toast.LENGTH_SHORT)
                     .show()
                 return@OnClickListener
